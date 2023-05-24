@@ -37,6 +37,8 @@ main {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.400);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
  #login #imagem {
@@ -49,4 +51,13 @@ main {
  #login #formulario {
     display: block;
     padding: 10px;
+ }
+
+ h1 {
+    text-align: center;
+    padding: 10px;
+ }
+
+ p {
+    font-size: .8rem;
  }
