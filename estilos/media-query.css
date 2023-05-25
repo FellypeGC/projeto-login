@@ -8,6 +8,7 @@
 
     #login {
         width: 80vw;
+        height: 290px;
     }
 
     #login #imagem {
@@ -25,6 +26,7 @@
 @media screen and (min-width: 992px){
     #login {
         width: 950px;
+        height: 350px;
     }
 
     #login #imagem {
@@ -43,6 +45,7 @@
     }
 
     p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        margin: 9px 0px;
     }
 }
